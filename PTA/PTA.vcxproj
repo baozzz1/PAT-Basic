@@ -155,7 +155,10 @@
   <ItemGroup>
     <ClCompile Include="1007.cpp" />
     <ClCompile Include="1004.cpp" />
-    <ClCompile Include="1005.cpp" />
+    <ClCompile Include="1013.cpp" />
+    <ClCompile Include="1014.cpp" />
+    <ClCompile Include="1014_rewrite.cpp" />
+    <ClCompile Include="star_1005.cpp" />
     <ClCompile Include="1006.cpp" />
     <ClCompile Include="1008.cpp" />
     <ClCompile Include="1009.cpp" />
