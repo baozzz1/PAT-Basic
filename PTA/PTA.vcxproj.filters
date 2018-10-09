@@ -15,15 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="1004.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="PTA.cpp">
+    <ClCompile Include="1005.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1006.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1007.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1008.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1009.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1011.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1012.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
