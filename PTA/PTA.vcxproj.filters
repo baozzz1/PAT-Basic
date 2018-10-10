@@ -87,5 +87,11 @@
     <ClCompile Include="rewrite_1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1026.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1027.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
