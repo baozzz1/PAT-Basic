@@ -48,9 +48,6 @@
     <ClCompile Include="1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1014_rewrite.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="1016.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -82,6 +79,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="1025.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1025.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

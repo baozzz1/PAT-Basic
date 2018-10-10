@@ -158,7 +158,8 @@
     <ClCompile Include="1004.cpp" />
     <ClCompile Include="1013.cpp" />
     <ClCompile Include="1014.cpp" />
-    <ClCompile Include="1014_rewrite.cpp" />
+    <ClCompile Include="rewrite_1014.cpp" />
+    <ClCompile Include="rewrite_1025.cpp" />
     <ClCompile Include="1018.cpp" />
     <ClCompile Include="1019.cpp" />
     <ClCompile Include="1020.cpp" />

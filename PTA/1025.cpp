@@ -5,32 +5,52 @@
 using namespace std;
 struct OnePoint {
 	friend void swapData(OnePoint &p1, OnePoint &p2);
-	OnePoint(const string &addr, const int &data, const string &next) :Address(addr), Data(data) {
+	OnePoint(const string &addr, const int &data, const string &next) :Data(make_pair(addr, data)) {
 		if (next == "-1")
 			isEnd = true;
-		else
-			Next = next;
+		Next = next;
 	}
 	OnePoint() {}
-	int Data;
-	string Address;
+	pair<string, int> Data;
 	bool isEnd = false;
 	string Next;
 };
 void swapData(OnePoint &p1, OnePoint &p2) {
-	int temp = p1.Data;
+	auto temp = p1.Data;
 	p1.Data = p2.Data;
 	p2.Data = temp;
 }
+void swapPoint(OnePoint &p1, OnePoint &p2) {
+	auto temp = p1;
+	p1 = p2;
+	p2 = temp;
+}
 void print(const OnePoint &p) {
-	cout << p.Address << " " << p.Data << " ";
+	cout << p.Data.first << " " << p.Data.second << " ";
 	if (p.isEnd)
 		cout << "-1";
 	else
 		cout << p.Next;
 	cout << endl;
 }
-int main() {
+int sortByAddress(vector<OnePoint> &points, const string &start) {
+	string lastNext = start;
+	for (int i = 0; i < points.size(); i++) {
+		for (int j = i; j < points.size(); j++) {
+			if (points[j].Data.first == lastNext) {
+				if (points[j].isEnd) {
+					swapPoint(points[i], points[j]);
+					return j + 1;
+				}
+				lastNext = points[j].Next;
+				swapPoint(points[i], points[j]);
+				break;
+			}
+		}
+	}
+	return points.size();
+}
+int P1025() {
 	string start;
 	int N, K;
 	cin >> start >> N >> K;
@@ -42,28 +62,20 @@ int main() {
 		cin >> addr >> data >> next;
 		points.push_back(OnePoint(addr, data, next));
 	}
-	//vector<OnePoint> pointsK(K);
-	string lastNext = start;
-	/*while (N > 0) {
-		for (auto iter = pointsK.begin(); iter != pointsK.end(); iter++) {
-			*iter = *find_if(points.begin(), points.end(), [lastNext](const OnePoint &p) {return p.Address == lastNext ? true : false; });
-			if (iter->isEnd) {
-				pointsK.resize(iter - pointsK.begin());
-				lastNext = "-1";
-				break;
-			}
-			else
-				lastNext = iter->Next;
+	N = sortByAddress(points, start);
+	int times = N / K;
+	for (int i = 0; i < times; i++) {
+		for (int j = 0; j < K / 2; j++) {
+			swapData(points[i*K + j], points[(i + 1)*K - j - 1]);
 		}
-		for (int i = 0; i < pointsK.size() / 2; i++)
-			swapData(pointsK[i], pointsK[pointsK.size() - i - 1]);
-		for (int i = 0; i < pointsK.size(); i++) {
-			print(pointsK[i]);
-		}
-		N -= K;
-	}*/
+	}
 	for (int i = 0; i < N; i++) {
+		if (i < N - 1)
+			points[i].Next = points[i + 1].Data.first;
+		else
+			points[i].Next = "-1";
 		print(points[i]);
 	}
+
 	return 0;
 }
