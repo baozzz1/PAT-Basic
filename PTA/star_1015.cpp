@@ -40,6 +40,8 @@ bool equalLevelCompare(const student &st1, const student &st2) {
 int P1015() {
 	int N;
 	cin >> N >> L >> H;
+	//vector<student> vec;
+	//vector<student> firstVec, secondVec, thirdVec, forthVec;
 	vector<vector<student>> Vec(4);
 	int count = 0;
 	while (N--) {
