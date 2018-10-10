@@ -48,10 +48,43 @@
     <ClCompile Include="1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1014_rewrite.cpp">
+    <ClCompile Include="1016.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1015.cpp">
+    <ClCompile Include="1017.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1015.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1018.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1019.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1020.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1021.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1022.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1023.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1024.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1025.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1025.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
