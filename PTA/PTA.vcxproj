@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -160,6 +160,9 @@
     <ClCompile Include="1014.cpp" />
     <ClCompile Include="1026.cpp" />
     <ClCompile Include="1027.cpp" />
+    <ClCompile Include="1028.cpp" />
+    <ClCompile Include="1029.cpp" />
+    <ClCompile Include="1030.cpp" />
     <ClCompile Include="rewrite_1014.cpp" />
     <ClCompile Include="rewrite_1025.cpp" />
     <ClCompile Include="1018.cpp" />
