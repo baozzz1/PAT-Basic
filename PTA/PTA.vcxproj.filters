@@ -111,5 +111,11 @@
     <ClCompile Include="1033.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1034.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1034_rewrite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
