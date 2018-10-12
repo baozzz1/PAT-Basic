@@ -99,5 +99,17 @@
     <ClCompile Include="1029.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1030.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1031.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1032.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1033.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
