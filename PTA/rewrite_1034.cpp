@@ -11,10 +11,6 @@ long long findGcd(const long long &num1, const long long &num2) {
 		return num1;
 	else
 		return findGcd(num2, num1%num2);
-	//long long t = (num1 > num2) ? num2 : num1;
-	//while (!(num1%t == 0 && num2 % t == 0))
-	//	t--;
-	//return t;
 }
 class fraction {
 public:

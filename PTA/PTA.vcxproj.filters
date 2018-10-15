@@ -16,105 +16,141 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1004.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1006.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1007.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1008.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1009.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1010.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1011.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1012.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="star_1005.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1013.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1014.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1016.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1017.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="star_1015.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1018.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1019.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1020.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1021.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1022.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1023.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1024.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1025.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="rewrite_1025.cpp">
+    <ClCompile Include="1026.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1027.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1028.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1029.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1030.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1031.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1032.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1033.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1034.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1036.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1035.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="rewrite_1014.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1026.cpp">
+    <ClCompile Include="rewrite_1025.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1027.cpp">
+    <ClCompile Include="rewrite_1034.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1028.cpp">
+    <ClCompile Include="star_1005.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1029.cpp">
+    <ClCompile Include="star_1015.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1030.cpp">
+    <ClCompile Include="1038.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1031.cpp">
+    <ClCompile Include="1037.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1039.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1032.cpp">
+    <ClCompile Include="1040.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1033.cpp">
+    <ClCompile Include="1041.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1034.cpp">
+    <ClCompile Include="1042.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1034_rewrite.cpp">
+    <ClCompile Include="1043.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1044.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1045.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1046.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
