@@ -123,58 +123,67 @@
     <ClCompile Include="star_1015.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1038.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="1037.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1038.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
     <ClCompile Include="1039.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1040.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1041.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1042.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1043.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1044.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1045.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1046.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1047.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1048.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1049.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1050.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1051.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1052.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1053.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1054.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1055.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1056.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1057.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
