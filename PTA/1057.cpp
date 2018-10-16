@@ -1,11 +1,10 @@
 #include<iostream>
 #include<string>
-#include<vector>
 using namespace std;
 
-int main() {
+int P1057() {
 	string s;
-	cin >> s;
+	getline(cin, s);			//关键：字符串中可能有空格
 	int numSum = 0;
 	for (auto iter = s.begin(); iter != s.end(); ++iter) {
 		if (*iter >= 'a' && *iter <= 'z')
@@ -13,16 +12,16 @@ int main() {
 		else if(*iter >= 'A' && *iter <= 'Z')
 			numSum += *iter - 'A' + 1;
 	}
-	int oneTarget = numSum, zeroTarget = ~numSum;
-	int oneSum = 0;
-	while (oneTarget) {
-		oneTarget &= oneTarget - 1;
-		oneSum++;
-	}
-	int zeroSum = 0;
-	while (zeroTarget) {
-		zeroTarget &= zeroTarget - 1;
-		zeroSum++;
+	unsigned oneSum = 0;
+	unsigned zeroSum = 0;
+	/*if (numSum == 0)
+		zeroSum = 1;*/
+	while (numSum) {
+		if (numSum & 1)
+			oneSum++;
+		else
+			zeroSum++;
+		numSum >>= 1;
 	}
 	cout << zeroSum << " " << oneSum;
 	return 0;

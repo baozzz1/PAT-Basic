@@ -187,6 +187,7 @@
     <ClCompile Include="1054.cpp" />
     <ClCompile Include="1056.cpp" />
     <ClCompile Include="1057.cpp" />
+    <ClCompile Include="1058.cpp" />
     <ClCompile Include="star_1055.cpp" />
     <ClCompile Include="star_1035.cpp" />
     <ClCompile Include="1036.cpp" />
