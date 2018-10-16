@@ -159,5 +159,23 @@
     <ClCompile Include="1048.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1049.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1050.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1051.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1052.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1053.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1054.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -179,6 +179,12 @@
     <ClCompile Include="1046.cpp" />
     <ClCompile Include="1047.cpp" />
     <ClCompile Include="1048.cpp" />
+    <ClCompile Include="1049.cpp" />
+    <ClCompile Include="1050.cpp" />
+    <ClCompile Include="1051.cpp" />
+    <ClCompile Include="1052.cpp" />
+    <ClCompile Include="1053.cpp" />
+    <ClCompile Include="1054.cpp" />
     <ClCompile Include="star_1035.cpp" />
     <ClCompile Include="1036.cpp" />
     <ClCompile Include="rewrite_1034.cpp" />

@@ -2,7 +2,7 @@
 #include<string>
 #include<vector>
 using namespace std;
-int main() {
+int P1048() {
 	string A, B;
 	cin >> A >> B;
 	int maxN = (A.size() > B.size()) ? A.size() : B.size();
@@ -35,7 +35,14 @@ int main() {
 			resStr[i] = res + '0';
 		}
 	}
-
-
+	bool zeroFlag = true;
+	for (int i = resStr.size() - 1; i >= 0 ; i--){
+		if (resStr[i] == '0' && zeroFlag)
+			continue;
+		else {
+			cout << resStr[i];
+			zeroFlag = false;
+		}
+	}
 	return 0;
 }
