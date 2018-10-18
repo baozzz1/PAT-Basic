@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 
-int P1066() {
+int P1036() {
 	int N; char c;
 	cin >> N >> c;
 	int cols = N;
