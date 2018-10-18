@@ -24,12 +24,12 @@ bool compareWithArray(const int IndexI, const int &IndexJ, const vector<vector<i
 	bool noUp = IndexI == 0;
 	bool noDown = IndexI == mat.size() - 1;
 	if ((noUp || noLeft ||		compare(mat[IndexI][IndexJ], mat[IndexI - 1][IndexJ - 1], TOL))
-		&& (noUp ||				compare(mat[IndexI][IndexJ], mat[IndexI - 1][IndexJ], TOL))
-		&& (noUp || noRight || compare(mat[IndexI][IndexJ], mat[IndexI - 1][IndexJ + 1], TOL))
-		&& (noLeft || compare(mat[IndexI][IndexJ], mat[IndexI][IndexJ - 1], TOL))
-		&& (noRight || compare(mat[IndexI][IndexJ], mat[IndexI][IndexJ + 1], TOL))
+		&& (noUp ||			compare(mat[IndexI][IndexJ], mat[IndexI - 1][IndexJ], TOL))
+		&& (noUp || noRight ||	compare(mat[IndexI][IndexJ], mat[IndexI - 1][IndexJ + 1], TOL))
+		&& (noLeft ||		compare(mat[IndexI][IndexJ], mat[IndexI][IndexJ - 1], TOL))
+		&& (noRight ||		compare(mat[IndexI][IndexJ], mat[IndexI][IndexJ + 1], TOL))
 		&& (noDown || noLeft || compare(mat[IndexI][IndexJ], mat[IndexI + 1][IndexJ - 1], TOL))
-		&& (noDown || compare(mat[IndexI][IndexJ], mat[IndexI + 1][IndexJ], TOL))
+		&& (noDown ||		compare(mat[IndexI][IndexJ], mat[IndexI + 1][IndexJ], TOL))
 		&& (noDown || noRight || compare(mat[IndexI][IndexJ], mat[IndexI + 1][IndexJ + 1], TOL)))
 		return true;
 	return false;
