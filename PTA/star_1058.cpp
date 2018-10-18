@@ -2,15 +2,15 @@
 #include<string>
 #include<vector>
 #include<algorithm>
+#include<map>
 using namespace std;
 
-// 数组复制应该用指针
-//或者用string作为有序char数组
+//不知道错在哪了
 struct question {
 	question() {}
-	question(int qNo, int g, int t, int r, vector<char> opt) :questionNo(qNo), fullGrade(g), totalNum(t), rightNum(r), options(opt) {}
+	question(int qNo, int g, int t, int r, vector<char> opt) :questionNo(qNo+'0'), fullGrade(g), totalNum(t), rightNum(r), options(opt) {}
 	
-	int questionNo;
+	char questionNo;
 	int fullGrade, totalNum, rightNum;
 	vector<char> options;
 	int errorCount = 0;
@@ -18,12 +18,12 @@ struct question {
 };
 
 bool readOneSection(string::iterator &beg, string::iterator &end, vector<question> &allQuestions, const int &questionIndex) {
-	auto sectionNum = *(++beg);
+	int sectionNum = *(++beg) - '0';
 	if (sectionNum != allQuestions[questionIndex].rightNum)
 		return false;
 	int rightIndex = 0;
 	for (auto iter = beg + 1; iter != end; iter++) {
-		if (*iter >= 'a'&&*iter <= 'z') {
+		if (*iter >= 'a'&&*iter <= 'e') {
 			if (*iter != allQuestions[questionIndex].options[rightIndex++])
 				return false;
 		}
@@ -36,7 +36,7 @@ int getOneStudentGrade(string &line, vector<question> &allQuestions) {
 	int questionIndex = 0;
 	auto beg = line.begin();
 	auto end = line.begin();
-	for (; questionIndex < allQuestions.size(); questionIndex) {
+	for (; questionIndex < allQuestions.size(); questionIndex++) {
 		beg = find(end, line.end(), '(');
 		end = find(beg, line.end(), ')');
 		if (readOneSection(beg, end, allQuestions, questionIndex))
@@ -47,27 +47,27 @@ int getOneStudentGrade(string &line, vector<question> &allQuestions) {
 	return sum;
 }
 
-int main() {
+int P1058() {
 	int N, M;
 	cin >> N >> M;
 	N = 3; M = 4;
 	vector<question> allQuestions(M);
 	int totalGrade = 0;
 
-	////输入所有的问题并记录
-	//char opt;
-	//int inputGrade, inputTotalNum, inputRightNum;
-	//for (int i = 0; i < M; i++) {
-	//	vector<char> options;
-	//	cin >> inputGrade >> inputTotalNum >> inputRightNum;
-	//	for (int j = 0; j < inputRightNum; j++) {
-	//		cin >> opt;
-	//		options.push_back(opt);
-	//	}
-	//	allQuestions[i] = question(i + 1, inputGrade, inputTotalNum, inputRightNum, options);
-	//	totalGrade += inputGrade;
-	//}
-
+	//输入所有的问题并记录
+	char opt;
+	int inputGrade, inputTotalNum, inputRightNum;
+	for (int i = 0; i < M; i++) {
+		vector<char> options;
+		cin >> inputGrade >> inputTotalNum >> inputRightNum;
+		for (int j = 0; j < inputRightNum; j++) {
+			cin >> opt;
+			options.push_back(opt);
+		}
+		allQuestions[i] = question(i + 1, inputGrade, inputTotalNum, inputRightNum, options);
+		totalGrade += inputGrade;
+	}
+	getchar();	//换行
 	//输入所有同学的答案
 	string line;
 	//vector<student> allStudent(N);
@@ -75,7 +75,7 @@ int main() {
 	//N位同学循环
 	for (int i = 0; i < N; i++) {
 		std::getline(cin, line);
-		grade[0] = getOneStudentGrade(line, allQuestions);
+		grade[i] = getOneStudentGrade(line, allQuestions);
 	}
 
 	//输出
@@ -88,14 +88,18 @@ int main() {
 	if (soEasy)
 		cout << "Too simple";
 	else{
-		int maxError = 0, maxQuestionNo = 0;
-		for(int i = 0;i<M;i++){
-			if (maxError < allQuestions[i].errorCount) {
-				maxError = allQuestions[i].errorCount;
-				maxQuestionNo = allQuestions[i].questionNo;
-			}
+		int maxErrorCount = 0;
+		map<int, string> errorCount;
+		for (int i = 0; i < M; i++) {
+			errorCount[allQuestions[i].errorCount] += ' ';
+			errorCount[allQuestions[i].errorCount] += allQuestions[i].questionNo;
+			if(allQuestions[i].errorCount> maxErrorCount)
+				maxErrorCount = allQuestions[i].errorCount;
 		}
-		cout << maxError << " " << maxQuestionNo;
+		cout << maxErrorCount;
+		for (auto iter = errorCount[maxErrorCount].begin(); iter != errorCount[maxErrorCount].end(); ++iter)
+			cout << *iter;
+		//cout << endl;
 	}
 	return 0;
 }

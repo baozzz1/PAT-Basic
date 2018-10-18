@@ -21,9 +21,6 @@
     <ClCompile Include="1006.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1007.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
     <ClCompile Include="1008.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
@@ -97,9 +94,6 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1033.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1034.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1036.cpp">
@@ -180,13 +174,37 @@
     <ClCompile Include="star_1055.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1056.cpp">
+    <ClCompile Include="star_1058.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1059.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1062.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1007_Prime_Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1034_Max_Common_Divisor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1056.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1057.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1060.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1061.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1063.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1058.cpp">
+    <ClCompile Include="1064.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
