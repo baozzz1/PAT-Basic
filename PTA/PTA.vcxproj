@@ -200,7 +200,9 @@
     <ClCompile Include="1070.cpp" />
     <ClCompile Include="1071.cpp" />
     <ClCompile Include="1072.cpp" />
-    <ClCompile Include="1073.cpp" />
+    <ClCompile Include="1074.cpp" />
+    <ClCompile Include="1075.cpp" />
+    <ClCompile Include="should_rewrited_1073.cpp" />
     <ClCompile Include="star_1058.cpp" />
     <ClCompile Include="star_1059.cpp" />
     <ClCompile Include="star_1055.cpp" />
