@@ -4,7 +4,7 @@
 using namespace std;
 
 //注意题意：序列的第N项是对第n-1项的描述，因此循环次数是N-1
-int main() {
+int P1084() {
 	int  N;
 	string n, res;
 	cin >> n >> N;
