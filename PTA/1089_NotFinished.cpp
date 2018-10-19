@@ -10,7 +10,7 @@ struct wolfKiller {
 	int guessOther;
 
 };
-int main() {
+int P1089() {
 	int N, num;
 	cin >> N;
 	char c;
@@ -24,5 +24,6 @@ int main() {
 			wolves[i].guess = true;
 		wolves[i].guessOther = num;
 	}
+
 	return 0;
 }
