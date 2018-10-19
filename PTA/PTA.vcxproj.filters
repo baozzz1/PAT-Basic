@@ -222,5 +222,17 @@
     <ClCompile Include="1067.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1070.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1071.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1072.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1073.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

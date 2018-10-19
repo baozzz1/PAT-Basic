@@ -197,6 +197,10 @@
     <ClCompile Include="1067.cpp" />
     <ClCompile Include="1068.cpp" />
     <ClCompile Include="1069.cpp" />
+    <ClCompile Include="1070.cpp" />
+    <ClCompile Include="1071.cpp" />
+    <ClCompile Include="1072.cpp" />
+    <ClCompile Include="1073.cpp" />
     <ClCompile Include="star_1058.cpp" />
     <ClCompile Include="star_1059.cpp" />
     <ClCompile Include="star_1055.cpp" />
