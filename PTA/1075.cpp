@@ -3,10 +3,8 @@
 #include<vector>
 #include<iomanip>
 #include<algorithm>
-#include<functional>
 #include<map>
 using namespace std;
-using namespace placeholders;
 
 struct ListPoint {
 	int Address, Next;
@@ -14,16 +12,11 @@ struct ListPoint {
 	int orderedRank;
 };
 
-/*-------------------------------*/
-void printAddrOrNext(const vector<ListPoint>::const_iterator &iter) {
+void print(const vector<ListPoint>::const_iterator &iter) {
 	cout << setw(5) << setfill('0') << iter->Address << " " << iter->Data << " ";
 	cout << setw(5) << setfill('0') << (iter + 1)->Address << endl;
 }
-void printData(const vector<ListPoint>::const_iterator &iter) {
-	cout << setw(5) << setfill('0') << iter->Address << " " << iter->Data << " ";
-	cout << setw(5) << setfill('0') << (iter + 1)->Address << endl;
-}
-int main() {
+int P1075() {
 	int start;
 	int N, K;
 	cin >> start >> N >> K;
@@ -56,26 +49,24 @@ int main() {
 			break;
 		}
 	}
-
 	auto iter = belowZeroPoints.cbegin();
-	for (; iter != belowZeroPoints.cend() - 1; ++iter) {
-		print(iter);
+	if (belowZeroPoints.size() != 0) {
+		for (; iter != belowZeroPoints.cend(); ++iter)
+			res.push_back(*iter);
 	}
-	cout << setw(5) << setfill('0') << iter->Address << " " << iter->Data << " ";
-	iter = midPoints.cbegin();
-	cout << setw(5) << setfill('0') << iter->Address << endl;
-
-	for (; iter != midPoints.cend() - 1; ++iter) {
-		print(iter);
+	if (midPoints.size() != 0) {
+		iter = midPoints.cbegin();
+		for (; iter != midPoints.cend(); ++iter)
+			res.push_back(*iter);
 	}
-	cout << setw(5) << setfill('0') << iter->Address << " " << iter->Data << " ";
-	iter = upperPoints.cbegin();
-	cout << setw(5) << setfill('0') << iter->Address << endl;
-
-	for (; iter != upperPoints.cend() - 1; ++iter) {
-		print(iter);
+	if (upperPoints.size() != 0) {
+		iter = upperPoints.cbegin();
+		for (; iter != upperPoints.cend(); ++iter)
+			res.push_back(*iter);
 	}
+	iter = res.cbegin();
+	for (; iter != res.cend() - 1; ++iter)
+		print(iter);
 	cout << setw(5) << setfill('0') << iter->Address << " " << iter->Data << " " << "-1";
-
 	return 0;
 }

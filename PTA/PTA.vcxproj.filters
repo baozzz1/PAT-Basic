@@ -234,10 +234,40 @@
     <ClCompile Include="1072.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1081.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
     <ClCompile Include="1074.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="1075.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1076.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1077.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1078.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1079.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1080.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1082.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1083.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1084.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1085.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
