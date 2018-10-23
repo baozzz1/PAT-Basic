@@ -5,33 +5,50 @@
 #include<map>
 using namespace std;
 
-//不知道错在哪了
-struct question {
-	question() {}
-	question(int qNo, int g, int t, int r, vector<char> opt) :questionNo(qNo+'0'), fullGrade(g), totalNum(t), rightNum(r), options(opt) {}
-	
-	char questionNo;
-	int fullGrade, totalNum, rightNum;
-	vector<char> options;
-	int errorCount = 0;
+map<int, vector<pair<int, char>>> maxErrorP1058;
 
+struct question {
+	int questionNo;
+	int fullGrade, sectionNum, rightNum;
+	vector<char> rightSections;
+	int errorCount = 0;
 };
 
-bool readOneSection(string::iterator &beg, string::iterator &end, vector<question> &allQuestions, const int &questionIndex) {
+bool readOneSectionP1058(string::iterator &beg, string::iterator &end, question &question) {
+	vector<char> rightSections(question.rightSections);
+	bool allRight = true;
 	int sectionNum = *(++beg) - '0';
-	if (sectionNum != allQuestions[questionIndex].rightNum)
-		return false;
-	int rightIndex = 0;
-	for (auto iter = beg + 1; iter != end; iter++) {
-		if (*iter >= 'a'&&*iter <= 'e') {
-			if (*iter != allQuestions[questionIndex].options[rightIndex++])
-				return false;
+	++beg;
+	for (; beg != end; beg++) {
+		if (*beg == ' ')
+			continue;
+		// 选择了错误答案的情况
+		auto iter = find(rightSections.begin(), rightSections.end(), *beg);
+		if (iter == rightSections.end()) {
+			//question.errorCount++;
+			allRight = false;
+			break;
 		}
+		else
+			rightSections.erase(iter);
 	}
-	return true;
+
+	//正确答案未被选完时:
+	if (rightSections.size() != 0) {
+		allRight = false;
+	}
+
+	//正确答案全被选完，且没选择错误的答案
+	if (allRight)
+		return true;
+	//正确答案全被选完，但是有错误的答案
+	else {
+		question.errorCount++;
+		return false;
+	}
 }
 
-int getOneStudentGrade(string &line, vector<question> &allQuestions) {
+double getOneStudentGradeP1058(string &line, vector<question> &allQuestions) {
 	int sum = 0;
 	int questionIndex = 0;
 	auto beg = line.begin();
@@ -39,67 +56,55 @@ int getOneStudentGrade(string &line, vector<question> &allQuestions) {
 	for (; questionIndex < allQuestions.size(); questionIndex++) {
 		beg = find(end, line.end(), '(');
 		end = find(beg, line.end(), ')');
-		if (readOneSection(beg, end, allQuestions, questionIndex))
+		if (readOneSectionP1058(beg, end, allQuestions[questionIndex]))
 			sum += allQuestions[questionIndex].fullGrade;
-		else
-			allQuestions[questionIndex].errorCount++;
 	}
 	return sum;
 }
 
+// 对应于P1073
 int P1058() {
 	int N, M;
 	cin >> N >> M;
-	N = 3; M = 4;
 	vector<question> allQuestions(M);
-	int totalGrade = 0;
 
-	//输入所有的问题并记录
-	char opt;
-	int inputGrade, inputTotalNum, inputRightNum;
+	//输入题目和答案
+	//int fullGrade, sectionNum, rightNum;
+	char rightSection;
 	for (int i = 0; i < M; i++) {
-		vector<char> options;
-		cin >> inputGrade >> inputTotalNum >> inputRightNum;
-		for (int j = 0; j < inputRightNum; j++) {
-			cin >> opt;
-			options.push_back(opt);
+		cin >> allQuestions[i].fullGrade >> allQuestions[i].sectionNum >> allQuestions[i].rightNum;
+		allQuestions[i].questionNo = i + 1;
+		for (int j = 0; j < allQuestions[i].rightNum; j++) {
+			cin >> rightSection;
+			allQuestions[i].rightSections.push_back(rightSection);
 		}
-		allQuestions[i] = question(i + 1, inputGrade, inputTotalNum, inputRightNum, options);
-		totalGrade += inputGrade;
 	}
 	getchar();	//换行
+
 	//输入所有同学的答案
 	string line;
-	//vector<student> allStudent(N);
-	vector<int> grade(N,0);
+	vector<double> grade(N, 0);
 	//N位同学循环
 	for (int i = 0; i < N; i++) {
 		std::getline(cin, line);
-		grade[i] = getOneStudentGrade(line, allQuestions);
+		grade[i] = getOneStudentGradeP1058(line, allQuestions);
 	}
 
 	//输出
-	bool soEasy = true;
-	for (int i = 0; i < N; i++){
+	for (int i = 0; i < N; i++)
 		cout << grade[i] << endl;
-		if (grade[i] != totalGrade)
-			soEasy = false;
-	}
-	if (soEasy)
-		cout << "Too simple";
-	else{
-		int maxErrorCount = 0;
-		map<int, string> errorCount;
+	int errorCount = 0;
+	for (int i = 0; i < M; i++)
+		if (errorCount < allQuestions[i].errorCount)
+			errorCount = allQuestions[i].errorCount;
+	if (errorCount != 0) {
+		cout << errorCount;
 		for (int i = 0; i < M; i++) {
-			errorCount[allQuestions[i].errorCount] += ' ';
-			errorCount[allQuestions[i].errorCount] += allQuestions[i].questionNo;
-			if(allQuestions[i].errorCount> maxErrorCount)
-				maxErrorCount = allQuestions[i].errorCount;
+			if (allQuestions[i].errorCount == errorCount)
+				cout << " " << i + 1;
 		}
-		cout << maxErrorCount;
-		for (auto iter = errorCount[maxErrorCount].begin(); iter != errorCount[maxErrorCount].end(); ++iter)
-			cout << *iter;
-		//cout << endl;
 	}
+	else
+		cout << "Too simple";
 	return 0;
 }
