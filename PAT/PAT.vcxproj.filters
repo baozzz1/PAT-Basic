@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="1003.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1004.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1006.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1007_Prime_Number.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1008.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1009.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1011.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1012.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1013.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1014.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1016.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1017.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1018.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1019.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1020.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1021.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1022.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1023.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1024.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1025.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1026.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1027.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1028.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1029.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1030.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1031.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1032.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1033.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1034_Max_Common_Divisor.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1036.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1037.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1038.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1039.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1040.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1041.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1042.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1043.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1044.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1045.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1046.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1047.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1048.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1049.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1050.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1051.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1052.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1053.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1054.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1056.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1057.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1060.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1061.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1062.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1063.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1064.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1065.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1066.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1067.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1068.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1069.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1070.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1071.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1072.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1075.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1076.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1077.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1078.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1079.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1080.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1081.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1082.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1083.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1084.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1085.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1086.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1087.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1088.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1089.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1090.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1014.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1025.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite_1034.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="should_rewrited_1073.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1005.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1015.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1035.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1055.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1058.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="star_1059.cpp">
+      <Filter>FirstTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1001_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1002_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1003_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1004_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1005_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1006_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1007_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FirstTest">
+      <UniqueIdentifier>{24387c74-f7d5-4472-8416-4b63b07fa87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SecondTest">
+      <UniqueIdentifier>{c7fe6818-add6-4083-b00e-7762a63da5e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

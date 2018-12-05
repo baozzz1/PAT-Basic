@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0CCC6F05-FBE3-4B1A-9962-17CBB0910DE6}</ProjectGuid>
+    <ProjectGuid>{CBBC4F8A-9749-4186-B8B6-0B33A4F5ED9B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>PAT</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
@@ -154,6 +154,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1001_.cpp" />
+    <ClCompile Include="1002_.cpp" />
+    <ClCompile Include="1003_.cpp" />
+    <ClCompile Include="1004_.cpp" />
+    <ClCompile Include="1005_.cpp" />
+    <ClCompile Include="1006_.cpp" />
     <ClCompile Include="1007_Prime_Number.cpp" />
     <ClCompile Include="1004.cpp" />
     <ClCompile Include="1013.cpp" />
@@ -217,6 +223,7 @@
     <ClCompile Include="1088.cpp" />
     <ClCompile Include="1089.cpp" />
     <ClCompile Include="1090.cpp" />
+    <ClCompile Include="1007_.cpp" />
     <ClCompile Include="should_rewrited_1073.cpp" />
     <ClCompile Include="star_1058.cpp" />
     <ClCompile Include="star_1059.cpp" />
