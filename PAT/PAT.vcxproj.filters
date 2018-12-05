@@ -292,6 +292,9 @@
     <ClCompile Include="1015_.cpp">
       <Filter>SecondTest</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="FirstTest">

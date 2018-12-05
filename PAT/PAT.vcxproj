@@ -223,6 +223,7 @@
     <ClCompile Include="1089.cpp" />
     <ClCompile Include="1090.cpp" />
     <ClCompile Include="1007_.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="should_rewrited_1073.cpp" />
     <ClCompile Include="star_1058.cpp" />
     <ClCompile Include="star_1059.cpp" />
