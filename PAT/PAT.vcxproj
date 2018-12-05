@@ -154,15 +154,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1001_.cpp" />
-    <ClCompile Include="1002_.cpp" />
     <ClCompile Include="1003_.cpp" />
-    <ClCompile Include="1004_.cpp" />
     <ClCompile Include="1005_.cpp" />
     <ClCompile Include="1006_.cpp" />
     <ClCompile Include="1007_Prime_Number.cpp" />
     <ClCompile Include="1004.cpp" />
+    <ClCompile Include="1009_.cpp" />
     <ClCompile Include="1013.cpp" />
+    <ClCompile Include="1015_.cpp" />
     <ClCompile Include="1014.cpp" />
     <ClCompile Include="1026.cpp" />
     <ClCompile Include="1027.cpp" />

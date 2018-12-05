@@ -274,16 +274,7 @@
     <ClCompile Include="star_1059.cpp">
       <Filter>FirstTest</Filter>
     </ClCompile>
-    <ClCompile Include="1001_.cpp">
-      <Filter>SecondTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1002_.cpp">
-      <Filter>SecondTest</Filter>
-    </ClCompile>
     <ClCompile Include="1003_.cpp">
-      <Filter>SecondTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1004_.cpp">
       <Filter>SecondTest</Filter>
     </ClCompile>
     <ClCompile Include="1005_.cpp">
@@ -293,6 +284,12 @@
       <Filter>SecondTest</Filter>
     </ClCompile>
     <ClCompile Include="1007_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1009_.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1015_.cpp">
       <Filter>SecondTest</Filter>
     </ClCompile>
   </ItemGroup>

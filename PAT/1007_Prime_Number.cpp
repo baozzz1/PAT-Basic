@@ -10,7 +10,7 @@ bool isPrime(int n) {	//返回1表示判断为质数，0为非质数，在此没有进行输入异常检测
 		return false;
 	n_sqrt = floor(sqrt((float)n));
 	for (int i = 5; i <= n_sqrt; i += 6) {
-		if (n % i == 0 | n % (i + 2) == 0)
+		if (n % i == 0 || n % (i + 2) == 0)
 			return false;
 	}
 	return true;
