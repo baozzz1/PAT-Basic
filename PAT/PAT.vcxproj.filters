@@ -106,24 +106,6 @@
     <ClCompile Include="1057.cpp">
       <Filter>FirstTest</Filter>
     </ClCompile>
-    <ClCompile Include="1067.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1068.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1069.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1070.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1071.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="1072.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
     <ClCompile Include="1074.cpp">
       <Filter>FirstTest</Filter>
     </ClCompile>
@@ -182,9 +164,6 @@
       <Filter>FirstTest</Filter>
     </ClCompile>
     <ClCompile Include="rewrite_1034.cpp">
-      <Filter>FirstTest</Filter>
-    </ClCompile>
-    <ClCompile Include="should_rewrited_1073.cpp">
       <Filter>FirstTest</Filter>
     </ClCompile>
     <ClCompile Include="star_1005.cpp">
@@ -297,6 +276,27 @@
     </ClCompile>
     <ClCompile Include="1066.cpp">
       <Filter>FirstTest\done</Filter>
+    </ClCompile>
+    <ClCompile Include="1069.cpp">
+      <Filter>FirstTest\done</Filter>
+    </ClCompile>
+    <ClCompile Include="1070.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1067.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1068.cpp">
+      <Filter>SecondTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1071.cpp">
+      <Filter>FirstTest\done</Filter>
+    </ClCompile>
+    <ClCompile Include="1072.cpp">
+      <Filter>FirstTest\done</Filter>
+    </ClCompile>
+    <ClCompile Include="should_rewrited_1073.cpp">
+      <Filter>SecondTest</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
